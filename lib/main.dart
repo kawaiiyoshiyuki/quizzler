@@ -32,7 +32,6 @@ class _QuizPageState extends State<QuizPage> {
 
   void checkAnswer(bool pickedAnswer) {
     setState(() {
-      //TODO: Step 4 Part A - show an alert using rFlutter_alert (remember to read the docs for the package!)
       if (quizBrain.isFinished()) {
         Alert(
           context: context,
